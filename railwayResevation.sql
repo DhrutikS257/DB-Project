@@ -44,3 +44,5 @@ SELECT p.first_name, p.last_name
 FROM Train as t, Passenger as p
 WHERE p.bdate 
 BETWEEN '1963/03/09' AND '1973/03/09';
+
+
