@@ -22,3 +22,13 @@ FROM Train as t, Booked as b, Passenger as p
 WHERE t.train_name = 'Golden Chariot' AND b.status = 'Booked' 
         AND p.SSN = b.SSN AND  t.train_number = b.train_number;
 
+-- Q7
+SELECT p.first_name, p.last_name, t.train_name
+FROM Booked as b, Passenger as p, Train as t
+WHERE b.status = 'WaitL' AND b.SSN = p.SSN AND t.train_number = b.train_number;
+
+-- Q8
+SELECT p.first_name, p.last_name
+FROM Passenger as p
+WHERE p.phone LIKE '%605%'
+ORDER BY p.first_name DESC;
