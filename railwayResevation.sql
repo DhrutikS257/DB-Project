@@ -33,10 +33,14 @@ FROM Passenger as p
 WHERE p.phone LIKE '%605%'
 ORDER BY p.first_name DESC;
 
--- Q4
-
 -- Q9
 SELECT p.first_name, p.last_name
 FROM Train as t, Passenger as p, Booked as b
 WHERE t.available_on LIKE '%Thursday%' AND b.status = 'Booked' AND p.SSN = b.SSN
 ORDER BY p.first_name ASC;
+
+-- Q4
+SELECT p.first_name
+FROM Train as t, Passenger as p
+WHERE p.bdate 
+BETWEEN '1963/03/09' AND '1973/03/09';
