@@ -14,3 +14,11 @@ SELECT COUNT(p.first_name), t.train_name, ts.train_date, t.train_number
 FROM Booked as b, Train as t, Train_Status as ts, Passenger as p
 WHERE b.status = 'Booked' AND b.train_number = t.train_number 
         AND ts.train_name = t.train_name AND p.SSN = b.SSN;
+
+
+-- Q6
+SELECT p.first_name, p.last_name
+FROM Train as t, Booked as b, Passenger as p
+WHERE t.train_name = 'Golden Chariot' AND b.status = 'Booked' 
+        AND p.SSN = b.SSN AND  t.train_number = b.train_number;
+
