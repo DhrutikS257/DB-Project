@@ -1,4 +1,4 @@
-# [DB-Project](https://github.com/DhrutikS257/DB-Project) #
+# DB-Project #
 ## Contributors: Dhrutik Solanki, Suhaib Hasan, Pranav Pujar ##
 
 ### 1. Which tools were used for the project? ###
@@ -62,6 +62,7 @@
   ```
 ### 4. Which method we used to load the data into the table? ###
   * We used the `INSERT INTO` method to load the data into the tables.
+
   
 ### 5. SQL `SELECT` Queries ###
   * Query 1
