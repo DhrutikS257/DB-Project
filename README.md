@@ -1,4 +1,4 @@
-# DB-Project #
+# [DB-Project](https://github.com/DhrutikS257/DB-Project) #
 ## Contributors: Dhrutik Solanki, Suhaib Hasan, Pranav Pujar ##
 
 ### 1. Which tools were used for the project? ###
