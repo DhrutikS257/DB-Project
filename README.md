@@ -63,6 +63,7 @@
 ### 4. Which method we used to load the data into the table? ###
   * We used the `INSERT INTO` method to load the data into the tables.
   
+  
 ### 5. SQL `SELECT` Queries ###
   * Query 1
   ``` SQL

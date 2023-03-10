@@ -18,7 +18,7 @@ SELECT p.first_name,p.last_name,p.address,b.status,b.ticket_type,
 FROM Booked as b
 JOIN Passenger as p, Train as t
 ON b.SSN = p.SSN AND t.train_number = b.train_number
-WHERE p.age >= 50 AND p.age <= 60;
+WHERE p.AGE >= 50 AND p.AGE <= 60;
 
 -- Q5
 SELECT COUNT(p.first_name), t.train_name, ts.train_date, t.train_number
