@@ -259,20 +259,20 @@
   * Suhaib Hasan:
     * ER Diagram
     * Documentation
-    * SQL `SELECT` Statements
+    * SQL `SELECT` Statements `(1,2,3)`
     * Code tester
     * ReadMe file
   * Pranav Pujar:
     * ER Diagram
     * Documentation
-    * SQL `CREATE` Statements
-    * SQL `SELECT` Statements
-    * SQL `INSERT INTO` Statements
+    * SQL `CREATE` Statements `(Train, Train_Status)`
+    * SQL `SELECT` Statements `(4,5)`
+    * SQL `INSERT INTO` Statements `(Train, Train_Status)`
   * Dhrutik Solanki:
     * Documentation
-    * SQL `CREATE` Statements
-    * SQL `SELECT` Statements
-    * SQL `INSERT INTO` Statements
+    * SQL `CREATE` Statements `(Passenger, Booked)`
+    * SQL `SELECT` Statements `(6,7,8)`
+    * SQL `INSERT INTO` Statements `(Passenger, Booked)`
     * GitHub Documenter
 ### 7. Honor Code: ###
   * I pledge, on my honor, to uphold UT Arlington's tradition of academic integrity, a tradition that values hard work and honest effort in the pursuit of academic excellence.
