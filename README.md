@@ -69,7 +69,7 @@
   SELECT t.train_name
   FROM Passenger as p, Booked as b, Train as t
   WHERE p.first_name = 'Art' AND p.last_name = 'Venere' AND p.SSN = b.SSN 
-          AND b.status = 'Booked' AND t.train_number = b.train_number;
+  AND b.status = 'Booked' AND t.train_number = b.train_number;
   
   ```
   ![Query 1](https://user-images.githubusercontent.com/99348594/224247789-cd1923bd-7d36-407f-96a8-3cd7e43467ea.png)
@@ -80,7 +80,7 @@
   JOIN Passenger as p
   ON b.SSN = p.SSN
   WHERE t.available_on LIKE '%Friday%' AND b.status = 'Booked' 
-          AND b.train_number  = t.train_number;
+  AND b.train_number  = t.train_number;
   ```
   ![Query 2](https://user-images.githubusercontent.com/99348594/224247715-9b15503a-930c-46d2-8ea6-ae6daebc6791.png)
   * Query 3
@@ -98,7 +98,7 @@
   SELECT COUNT(p.first_name), t.train_name, ts.train_date, t.train_number
   FROM Booked as b, Train as t, Train_Status as ts, Passenger as p
   WHERE b.status = 'Booked' AND b.train_number = t.train_number 
-          AND ts.train_name = t.train_name AND p.SSN = b.SSN;
+  AND ts.train_name = t.train_name AND p.SSN = b.SSN;
   ```
   ![Query 4](https://user-images.githubusercontent.com/99348594/224248064-2ca47c17-ef1f-4994-af96-1af45691e79e.png)
   * Query 5
@@ -106,7 +106,7 @@
   SELECT p.first_name, p.last_name
   FROM Train as t, Booked as b, Passenger as p
   WHERE t.train_name = 'Golden Chariot' AND b.status = 'Booked' 
-          AND p.SSN = b.SSN AND  t.train_number = b.train_number;
+  AND p.SSN = b.SSN AND  t.train_number = b.train_number;
   ```
   ![Query 5](https://user-images.githubusercontent.com/99348594/224248289-202794b0-3cd1-4d6a-8f3c-38b2335c434f.png)
   * Query 6
