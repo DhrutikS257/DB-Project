@@ -62,7 +62,18 @@
   ```
 ### 4. Which method we used to load the data into the table? ###
   * We used the `INSERT INTO` method to load the data into the tables.
-
+  ``` SQL
+  INSERT INTO Train 
+  Values (1,'Orient Express',800,600,'Paris','Istabul','Weekdays');
+  INSERT INTO Train 
+  Values (2,'Flying Scotsman',4000,3500,'Edinburgh','London','Friday Saturday Sunday');
+  INSERT INTO Train 
+  Values (3,'Golden Arrow',980,860,'Victoria','Dover','Monday Tuesday Wednesday');
+  INSERT INTO Train 
+  Values (4,'Golden Chariot',4300,3800,'Bangalore','Goa','Saturday Sunday');
+  INSERT INTO Train 
+  Values (5,'Maharaja Express',5980,4510,'Delhi','Mumbai','Wednesday Thursday Friday');
+  ```
   
 ### 5. SQL `SELECT` Queries ###
   * Query 1
