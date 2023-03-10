@@ -144,12 +144,12 @@
     * Documentation
     * SQL `CREATE` Statements
     * SQL `SELECT` Statements
-    * Loaded data into tables
+    * SQL `INSERT INTO` Statements
   * Dhrutik Solanki:
     * Documentation
     * SQL `CREATE` Statements
     * SQL `SELECT` Statements
-    * Loaded data into tables
+    * SQL `INSERT INTO` Statements
     * GitHub Documenter
 ### 7. Honor Code: ###
   * I pledge, on my honor, to uphold UT Arlington's tradition of academic integrity, a tradition that values hard work and honest effort in the pursuit of academic excellence.
