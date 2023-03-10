@@ -90,7 +90,7 @@
   FROM Booked as b
   JOIN Passenger as p, Train as t
   ON b.SSN = p.SSN AND t.train_number = b.train_number
-  WHERE p.age >= 50 AND p.age <= 60;
+  WHERE p.AGE >= 50 AND p.AGE <= 60;
   ```
   ![Query 3](https://user-images.githubusercontent.com/99348594/224247526-a0a45561-1f8d-4e7a-beb3-86ac4d1bc36f.png)
   * Query 4
