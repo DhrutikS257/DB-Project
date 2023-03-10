@@ -1,4 +1,4 @@
-# DB-Project
+# [DB-Project](https://github.com/DhrutikS257/DB-Project) #
 ## Contributors: Dhrutik Solanki, Suhaib Hasan, Pranav Pujar ##
 
 ### 1. Which tools were used for the project? ###
@@ -10,7 +10,7 @@
 ### 2. ER Diagram ###
 ![ER Diagram](https://media.discordapp.net/attachments/1067652982654632027/1083605423669661696/ER.png?width=960&height=610)
 
-### 3. SQL Queries ###
+### 3. SQL `CREATE` Queries ###
   * Train_status table:
   ``` SQL
   CREATE TABLE Train_Status (
@@ -63,14 +63,13 @@
 ### 4. Which method we used to load the data into the table? ###
   * We used the `INSERT INTO` method to load the data into the tables.
   
-  
 ### 5. SQL `SELECT` Queries ###
   * Query 1
   ``` SQL
   SELECT t.train_name
   FROM Passenger as p, Booked as b, Train as t
   WHERE p.first_name = 'Art' AND p.last_name = 'Venere' AND p.SSN = b.SSN 
-          AND b.status = 'Booked' AND t.train_number = b.train_number;
+  AND b.status = 'Booked' AND t.train_number = b.train_number;
   
   ```
   ![Query 1](https://user-images.githubusercontent.com/99348594/224247789-cd1923bd-7d36-407f-96a8-3cd7e43467ea.png)
@@ -81,7 +80,7 @@
   JOIN Passenger as p
   ON b.SSN = p.SSN
   WHERE t.available_on LIKE '%Friday%' AND b.status = 'Booked' 
-          AND b.train_number  = t.train_number;
+  AND b.train_number  = t.train_number;
   ```
   ![Query 2](https://user-images.githubusercontent.com/99348594/224247715-9b15503a-930c-46d2-8ea6-ae6daebc6791.png)
   * Query 3
@@ -91,7 +90,7 @@
   FROM Booked as b
   JOIN Passenger as p, Train as t
   ON b.SSN = p.SSN AND t.train_number = b.train_number
-  WHERE p.age >= 50 AND p.age <= 60;
+  WHERE p.AGE >= 50 AND p.AGE <= 60;
   ```
   ![Query 3](https://user-images.githubusercontent.com/99348594/224247526-a0a45561-1f8d-4e7a-beb3-86ac4d1bc36f.png)
   * Query 4
@@ -99,7 +98,7 @@
   SELECT COUNT(p.first_name), t.train_name, ts.train_date, t.train_number
   FROM Booked as b, Train as t, Train_Status as ts, Passenger as p
   WHERE b.status = 'Booked' AND b.train_number = t.train_number 
-          AND ts.train_name = t.train_name AND p.SSN = b.SSN;
+  AND ts.train_name = t.train_name AND p.SSN = b.SSN;
   ```
   ![Query 4](https://user-images.githubusercontent.com/99348594/224248064-2ca47c17-ef1f-4994-af96-1af45691e79e.png)
   * Query 5
@@ -107,7 +106,7 @@
   SELECT p.first_name, p.last_name
   FROM Train as t, Booked as b, Passenger as p
   WHERE t.train_name = 'Golden Chariot' AND b.status = 'Booked' 
-          AND p.SSN = b.SSN AND  t.train_number = b.train_number;
+  AND p.SSN = b.SSN AND  t.train_number = b.train_number;
   ```
   ![Query 5](https://user-images.githubusercontent.com/99348594/224248289-202794b0-3cd1-4d6a-8f3c-38b2335c434f.png)
   * Query 6
