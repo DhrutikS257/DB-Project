@@ -63,7 +63,6 @@
 ### 4. Which method we used to load the data into the table? ###
   * We used the `INSERT INTO` method to load the data into the tables.
   
-  ![INSERTINTO](https://media.discordapp.net/attachments/1067653004083343451/1083600775130923039/image.png)
 ### 5. SQL `SELECT` Queries ###
   * Query 1
   ``` SQL
