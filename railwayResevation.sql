@@ -10,9 +10,12 @@ FROM Train_Status as ts, Booked as b, Passenger as p
 WHERE ts.train_date = '2022/19/02' AND b.status = 'Booked' AND b.SSN = p.SSN;
 
 -- Q4
--- SELECT p.first_name, p.last_name
--- FROM Train_Status as ts, Train as t, Booked as b, Passenger as p  
--- WHERE p.Age >= 50 AND p.Age<= 60;
+SELECT p.first_name,p.last_name,p.address,b.status,b.ticket_type,
+        t.train_number,t.train_name,t.source_station,t.destination_station
+FROM Booked as b
+JOIN Passenger as p, Train as t
+ON b.SSN = p.SSN AND t.train_number = b.train_number
+WHERE p.age >= 50 AND p.age <= 60;
 -- Q5
 SELECT COUNT(p.first_name), t.train_name, ts.train_date, t.train_number
 FROM Booked as b, Train as t, Train_Status as ts, Passenger as p
