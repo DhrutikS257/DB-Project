@@ -10,7 +10,7 @@
 ### 2. ER Diagram ###
 ![ER Diagram](https://media.discordapp.net/attachments/1067652982654632027/1083605423669661696/ER.png?width=960&height=610)
 
-### 3. SQL Queries ###
+### 3. SQL `CREATE` Queries ###
   * Train_status table:
   ``` SQL
   CREATE TABLE Train_Status (
