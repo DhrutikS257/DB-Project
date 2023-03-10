@@ -145,23 +145,23 @@
     INSERT INTO Booked
     VALUES (317434088, 2, 'Premium', 'Booked');
     INSERT INTO Booked
-    VALUES (310908858, 2, 'Premium', 'Booked');
+    VALUES (310908858, 2, 'General', 'Booked');
     INSERT INTO Booked
-    VALUES (322273872, 2, 'Premium', 'Booked');
+    VALUES (322273872, 2, 'General', 'Booked');
     INSERT INTO Booked
-    VALUES (256558303, 3, 'Premium', 'Booked');
+    VALUES (256558303, 3, 'Premium', 'WaitL');
     INSERT INTO Booked
-    VALUES (302548590, 2, 'Premium', 'Booked');
+    VALUES (302548590, 2, 'General', 'WaitL');
     INSERT INTO Booked
-    VALUES (284965676, 3, 'Premium', 'Booked');
+    VALUES (284965676, 3, 'Premium', 'WaitL');
     INSERT INTO Booked
-    VALUES (277292710, 3, 'Premium', 'Booked');
+    VALUES (277292710, 3, 'General', 'WaitL');
     INSERT INTO Booked
-    VALUES (331160133, 3, 'Premium', 'Booked');
+    VALUES (331160133, 3, 'General', 'WaitL');
     INSERT INTO Booked
-    VALUES (331293204, 3, 'Premium', 'Booked');
+    VALUES (331293204, 3, 'General', 'WaitL');
     INSERT INTO Booked
-    VALUES (290123298, 3, 'Premium', 'Booked');
+    VALUES (290123298, 3, 'General', 'WaitL');
     INSERT INTO Booked
     VALUES (286411536, 4, 'Premium', 'Booked');
     INSERT INTO Booked
@@ -175,7 +175,7 @@
     INSERT INTO Booked
     VALUES (256558303, 4, 'Premium', 'Booked');
     INSERT INTO Booked
-    VALUES (302548590, 4, 'General', 'Booked');
+    VALUES (302548590, 4, 'Premium', 'Booked');
     INSERT INTO Booked
     VALUES (284965676, 4, 'General', 'Booked');
     INSERT INTO Booked
